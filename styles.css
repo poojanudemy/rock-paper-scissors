@@ -1,0 +1,150 @@
+/* Simple styles for Rock Paper Scissors */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Score Board */
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.score h3 {
+    margin: 0 0 10px 0;
+}
+
+.score p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Choice Buttons */
+.choice-buttons {
+    margin: 20px 0;
+}
+
+.choice-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.choice-btn:hover {
+    background: #45a049;
+}
+
+.choice-btn .emoji {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/* Result Area */
+.result-area {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.moves {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.choice-display {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.vs {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+}
+
+.result-message {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.result-message.win {
+    background: lightgreen;
+    color: darkgreen;
+}
+
+.result-message.lose {
+    background: lightcoral;
+    color: darkred;
+}
+
+.result-message.tie {
+    background: lightyellow;
+    color: orange;
+}
+
+/* Reset Button */
+.reset-btn {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.reset-btn:hover {
+    background: #da190b;
+}
+
+/* Footer */
+.foot {
+    margin-top: 30px;
+    color: #666;
+}
+
+.foot a {
+    color: #333;
+    text-decoration: none;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
